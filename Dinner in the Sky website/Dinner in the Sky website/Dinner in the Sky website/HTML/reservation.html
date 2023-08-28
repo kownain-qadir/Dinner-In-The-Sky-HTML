@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        RESERVATION Form
+    </title>
+
+</head>
+<link rel="stylesheet" href="../\CSS\reservation.css">
+
+
+ <div class="main">
+
+<body>
+
+    <div class="div1">
+        <ul>
+        <li id="homebtn"><a href="../Dinner in the sky.html">HOME</a></li>
+        </ul>
+    </div>
+
+    <div class="div2">
+
+
+        <center>
+            <h1 id="ach1">RESERVATION DESK</h1><br>
+            <h2 id="ach2">WE ARE READY TO SERVE YOU</h2>
+
+        <form class="myform">
+
+            <br><br><input type="name" id="inpname" class="input" placeholder="Name" ><br>
+            <small><p id="namefieldemp"></p></small>
+            <br>
+
+        <br><br><input type="email" id="inpemail" class="input" placeholder="Email"><br><br>
+
+        <br><br><input type="number" id="inpcontact" class="input" placeholder="Phone"><br><br>
+
+            <br><br><input type="number" id="inpguests" class="input" placeholder="No. of Guests (MAX: 40)"><br><br><br><br>
+
+            Select Table : <br><br>
+            <select name="table" class="inptable" id="category">
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First class</option>
+            </select>   <br><br><br>
+            Date and Time : <input type="datetime-local" class="dateandtime" id="datetime"><br><br><br>
+            Any message : <br><br><textarea type="text" id="inptext" placeholder="Your message here... "></textarea>
+
+            <button type="submit" class="subbtn" id="submitbutton">Submit Request</button>
+
+        </center>
+        </form>
+        <script src="../\JS\reservation.js" charset="utf-8"></script>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
